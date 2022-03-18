@@ -19,6 +19,9 @@ dependencies {
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}
+/*	// https://mvnrepository.com/artifact/org.projectlombok/lombok
+	providedgroup: 'org.projectlombok', name: 'lombok', version: '1.18.22'*/
+
 }
 
 tasks.named('test') {
